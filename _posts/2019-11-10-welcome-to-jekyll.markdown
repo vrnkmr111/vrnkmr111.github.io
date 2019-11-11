@@ -7,7 +7,7 @@ categories:
 - AWS
 - VPC
 - VPC-Peering
-author: Pavan Kumar Aryasomayajulu
+author: K varun Kumar
 ---
 
 <h1>{{ page.author }}</h1>
