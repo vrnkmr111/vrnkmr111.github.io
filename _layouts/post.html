@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no-js">
+{% include head.html %}
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="{{ site.baseurl }}/index.html" class="active">Blog</a>
+        <a href="{{ site.baseurl }}/about.html">About Me</a>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- profile -->
+                        {% include profile_widget.html %}
+                        <!--end profile -->
+
+                        <!-- blog content -->
+                        {% include blog_content.html %}
+                        <!--blog content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include scripts.html %}
+</body>
+
+</html>
